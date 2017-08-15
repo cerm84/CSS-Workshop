@@ -1,0 +1,28 @@
+{
+  "name": "css-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "slides.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerm84/CSS-Workshop.git"
+  },
+  "keywords": [
+    "css",
+    "frontend",
+    "masters"
+  ],
+  "author": "estelle weyl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerm84/CSS-Workshop/issues"
+  },
+  "homepage": "https://github.com/cerm84/CSS-Workshop#readme",
+  "dependencies": {
+    "npm": "^5.3.0",
+    "typescript": "^2.4.2"
+  }
+}
