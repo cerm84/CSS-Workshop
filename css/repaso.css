@@ -1,1 +1,33 @@
 /* Repaso de css */
+ol li {color: green;}
+ol > li {color: purple;}
+li {color: yellow;}
+li.myclass {color: red;}
+li.myclass ~ li {color: blue; font-weight: bold}
+li.myclass + li {color: orange;}
+
+input:valid { border: 1px solid green;}
+input:invalid { border: 1px solid red;}
+input[aria-required="true"] {border-width: 5px;}
+input:optional {border-width: 10px;}
+input:out-of-range { background-color: pink;}
+input:in-range { background-color:lightgreen;}
+
+/*****CHECKBOX*******/
+input[type=checkbox]:checked + label {color: red;}
+
+::selection{
+    background-color: peru;
+    color: aqua;
+} /******selections styles the selection action in the page*******/
+
+p:first-of-type::first-letter {
+	position: relative;
+	top: 8px;
+	float: left;
+	font-size: 3em;
+	line-height: 1;
+	color: #C7573A;
+	padding: 0 4px 2px 0;
+	font-weight: bold;	
+}
