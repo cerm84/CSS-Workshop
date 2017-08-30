@@ -77,6 +77,10 @@ p.thought {display: inline-block; font-size: 2em;padding: 0 20px 20px; backgroun
   left: 12%; bottom: -50px;
   height: 20px; width: 20px;
 }
+p.thought{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
 
 #infinity {
     position: relative;
@@ -92,7 +96,7 @@ p.thought {display: inline-block; font-size: 2em;padding: 0 20px 20px; backgroun
     left: 0;
     width: 60px;
     height: 60px;
-    border: 20px solid red;
+    border: 20px solid hsla(134, 80%, 52%, 0.52);
     -moz-border-radius: 50px 50px 0 50px;
          border-radius: 50px 50px 0 50px;
     -webkit-transform: rotate(-45deg);
@@ -113,3 +117,31 @@ p.thought {display: inline-block; font-size: 2em;padding: 0 20px 20px; backgroun
          -o-transform: rotate(45deg);
             transform: rotate(45deg);
 }
+
+@media screen and (max-width: 480px){
+    a{
+        transition: background-color 200ms linear 50ms;
+    }
+}
+/*****example of media query inside the stylesheet*********/
+
+
+body {
+    font-family: 'Lora', sans-serif, arial;
+}
+
+#backgroundTest{
+    display: inline-block;
+    background-image: url("https://www.google.hn/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi61ufP9vzVAhWENSYKHRRuDTQQjRwIBw&url=http%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fbackground&psig=AFQjCNFqqG9YSgQQ6ixnKBUs18m-55swjA&ust=1504112700004194"), linear-gradient(to right, grey, blue) ;
+    border: 8px inset red;
+    border-radius: 10px / 30px;
+}
+
+a {
+    color: #C7573A; 
+    transition: 1s;
+  }
+  a:hover {
+    color: #BDD9D5;
+  }
+  /**********tansition*******************/
